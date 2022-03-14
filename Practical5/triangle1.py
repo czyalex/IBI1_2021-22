@@ -5,3 +5,4 @@ while i<=10:
     i+=1
     pass
 print(n)
+# the answer is 55

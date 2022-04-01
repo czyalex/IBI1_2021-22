@@ -1,0 +1,6 @@
+How have new cases and total cases developed over time in Spain?
+
+In the line 44-53 a plot of the new cases and total cases developed over time was drawed
+
+The result shows that from 2020.3.08 to 2020.3.28 the new cases in Spain has remain a high number.
+So the total cases increase dramatically to 85195 cases.

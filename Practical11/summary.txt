@@ -1,0 +1,3 @@
+BLOSUM score for human-mouse, human-random, mouse random comparisons: 1490, -351, -348
+The percentage of identical amino acids for three comparisons: 96.53979238754326%, 2.7681660899653977%, 3.114186851211073%
+We can see that the more identical the amino acids are, the higher the alignment score will be. So, according to the result the human protein is more similar to the mouse protein than the random protein. Also, the similarity of the human protein and mouse protein is up to 96%. That mean the mouse and human are quite relative. This may be shown by that both mouse and human are mammal. 

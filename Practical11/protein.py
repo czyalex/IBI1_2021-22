@@ -20,8 +20,10 @@ with open('C:/Users/80753/IBI1_2021-22/IBI1_2021-22/Practical11/RandomSeq(1).fa'
             pass
         else:
             protein_random+=line.replace('\n', '')
+# input the 3 sequence of protein
 df=pd.read_excel('C:/Users/80753/IBI1_2021-22/IBI1_2021-22/Practical11/BLOSUM.xlsx')
-str="ARNDCQEGHILKMFPSTWYVBZX"
+# input the BLOSUM xlsx
+str="ARNDCQEGHILKMFPSTWYVBZX" # use str to match the columns in BLOSUM
 # print(type(str.find('A')))
 def protein(seq1,seq2):
     total=0
@@ -33,6 +35,7 @@ def protein(seq1,seq2):
         total+=q
         pass
     return total
+# this function is used to find out the points of two sequences
 def protein_similarity (seq1,seq2):
     edit_distance = 0
     for i in range(len(seq1)):
@@ -40,7 +43,7 @@ def protein_similarity (seq1,seq2):
             edit_distance += 1
     similarity=(len(seq1)-edit_distance)/len(seq1)
     return similarity
-
+# this function is used to find out the similarity of two sequences
 print(protein(protein_random,protein_mouse))
 print(protein(protein_random,protein_human))
 print(protein(protein_human,protein_mouse))

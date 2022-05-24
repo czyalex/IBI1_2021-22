@@ -9,7 +9,7 @@ class Staff:
     def speak(self,role):
         print('I am %s %s, I am now in %s, and I am a %s in the ZJE institute'%(self.name,self.surname,self.location,role))
 
-
+# example  Cheng Zhiyuan a student in Haining
 a=Staff('zhiyuan','Cheng',Staff.H)
 a.speak('student')
 

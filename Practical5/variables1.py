@@ -12,11 +12,16 @@ else:
 # the new cases greater in 2021
 
 # Create two variables X and Y which can be used to store string variables.
-X='cream'
-Y='ice'
-W=X==Y
+X=0==0
+Y=1==1
+W=X and Y
 print(W)
-
+# when X is true and Y is true W is true
+x=0==2
+y=1==1
+w=x and y
+print(w)
+# when X is False and Y is true W is false
 
 
 

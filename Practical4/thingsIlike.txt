@@ -7,3 +7,4 @@ I like cake
 I like fish
 I like dog 
 I like cat
+I like coffee
